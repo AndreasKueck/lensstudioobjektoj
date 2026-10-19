@@ -1,0 +1,37 @@
+- !<Material/f8c92cb7-746a-463c-8131-c92abef8fb92>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> b285ef94-abe9-440b-9057-16e5771e4415
+- !<PassInfo/b285ef94-abe9-440b-9057-16e5771e4415>
+  CachedProperties:
+    []
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseTex:
+      typeIdx: 9
+      value:
+        id: 22f07b94-7c35-495e-a57f-3380983dbe90
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+  Pass: !<reference> 0e7aec34-fe1f-4d14-b719-c295a75ea482

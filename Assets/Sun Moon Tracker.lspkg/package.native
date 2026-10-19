@@ -1,0 +1,38 @@
+- !<NativePackageDescriptor/7a4719c9-ca16-408e-a701-74990afc4255>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 24
+    patch: 1
+    build: 26100516
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |-
+    Track the locations of the sun and the moon, using GPS and time of day!
+    
+    Check out Sun Moon Tracker for more information and code examples
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 107
+  ExportUid: 99691948-abbd-4e93-8c3c-58f2ce204b82
+  ComponentUid: 6b978e2a-c72a-4bf3-8cd7-d761541022d1
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
+  coreVersion: 377
+  clientVersion: 14.21
+  PackagePolicy: ShouldBeUnpacked

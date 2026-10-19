@@ -1,0 +1,235 @@
+- !<ObjectPrefab/fb0eaaee-f93a-4712-8fc7-51d449f86fbb>
+  PackagePath: ""
+  objects:
+    - !<own> 103fae15-3605-4e6a-85ef-07f827266728
+  LazyLoading: false
+  RetainAssets: true
+  PreviewEnvironment: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/103fae15-3605-4e6a-85ef-07f827266728>
+  PrefabRemaps:
+    - 103fae15-3605-4e6a-85ef-07f827266728: 103fae15-3605-4e6a-7a10-f807d8d998d7
+    - 2e3901f6-f197-4b52-ba96-2641ebb177d8: 2e3901f6-f197-4b52-4569-d9be144e8827
+    - 75d2c83b-37e7-47cc-9ef2-36cea0f43de0: 75d2c83b-37e7-47cc-610d-c9315f0bc21f
+    - 7b4db4f6-c32d-445a-9984-fc5a2c23bec1: 7b4db4f6-c32d-445a-667b-03a5d3dc413e
+    - 827fe20e-a1c8-4a7a-ad52-aa6af5cff681: 827fe20e-a1c8-4a7a-52ad-55950a30097e
+    - 851b6353-5e31-4e03-94ec-1e93a53a6777: 851b6353-5e31-4e03-6b13-e16c5ac59888
+    - aae0cd35-b756-42d4-a43c-e1d38d1d4749: aae0cd35-b756-42d4-5bc3-1e2c72e2b8b6
+    - cfaa3b39-ce4b-49a3-9769-1e2fa65bcb83: cfaa3b39-ce4b-49a3-6896-e1d059a4347c
+    - d7e19344-248b-4a3a-a21b-63b6093d9a8c: d7e19344-248b-4a3a-5de4-9c49f6c26573
+  Name: Sun Moon Tracker__ADD_TO_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> cfaa3b39-ce4b-49a3-9769-1e2fa65bcb83
+  Components:
+    - !<own> 851b6353-5e31-4e03-94ec-1e93a53a6777
+- !<SceneObject/2e3901f6-f197-4b52-ba96-2641ebb177d8>
+  PrefabRemaps:
+    []
+  Name: Moon
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> aae0cd35-b756-42d4-a43c-e1d38d1d4749
+    - !<own> 7b4db4f6-c32d-445a-9984-fc5a2c23bec1
+- !<ScriptComponent/75d2c83b-37e7-47cc-9ef2-36cea0f43de0>
+  PrefabRemaps:
+    []
+  Name: Ekzemplo
+  Enabled: true
+  ScriptAsset: !<reference> 27f912b9-5c3b-4805-8443-d0bebdc21fab
+  ScriptInputsDefault:
+    object0: true
+    object1: true
+    object2: true
+    markerBaseScale: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      infoText: !<reference.SceneObject> d7e19344-248b-4a3a-a21b-63b6093d9a8c
+      cam: !<reference.Camera> 00000000-0000-0065-0000-000000000065
+      object0: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      object1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      object2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      markerBaseScale: !<float> 40.000000
+  ScriptTypes:
+    "":
+      {}
+- !<LookAtComponent/7b4db4f6-c32d-445a-9984-fc5a2c23bec1>
+  PrefabRemaps:
+    []
+  Name: Look At
+  Enabled: true
+  LookAtMode: LookAtPoint
+  AimVectors: ZAimYUp
+  WorldUpVector: ObjectY
+  Target: !<reference> 00000000-0000-0065-0000-000000000064
+  OffsetRotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+- !<Text/827fe20e-a1c8-4a7a-ad52-aa6af5cff681>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: |-
+    Use Interactive Preview to look around
+    and find the moon! 🌙
+    
+    It can be in the sky, or beneath you.
+    Make sure location access is enabled.
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableRichText: false
+  SizeToFit: false
+  FontSize: 48.000000
+  FontSource: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 0.777066, z: 0.000488, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlphaAuto
+  Outline: !<OutlineSettings>
+    Enabled: true
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.700000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: true
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+  PreferredStyle: Regular
+- !<ScriptComponent/851b6353-5e31-4e03-94ec-1e93a53a6777>
+  PrefabRemaps:
+    []
+  Name: Sun-Lun-spurilo
+  Enabled: true
+  ScriptAsset: !<reference> d4106a96-d1b7-466c-ae70-859827d5e8a1
+  ScriptInputsDefault:
+    remoteServiceModule: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      deviceTracking: !<reference.DeviceTracking> b95c3d01-73a5-4081-bb92-8574df676ce0
+      remoteServiceModule: !<reference.RemoteServiceModule> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<Image/aae0cd35-b756-42d4-a43c-e1d38d1d4749>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 335db54d-4811-419c-930b-3b22eaf95e65
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/cfaa3b39-ce4b-49a3-9769-1e2fa65bcb83>
+  PrefabRemaps:
+    []
+  Name: Example [DELETE_ME]
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d7e19344-248b-4a3a-a21b-63b6093d9a8c
+    - !<own> 2e3901f6-f197-4b52-ba96-2641ebb177d8
+  Components:
+    - !<own> 75d2c83b-37e7-47cc-9ef2-36cea0f43de0
+- !<SceneObject/d7e19344-248b-4a3a-a21b-63b6093d9a8c>
+  PrefabRemaps:
+    []
+  Name: Info Text
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 827fe20e-a1c8-4a7a-ad52-aa6af5cff681

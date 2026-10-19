@@ -1,0 +1,55 @@
+studioVersion:
+  major: 5
+  minor: 24
+  patch: 1
+  build: 26100516
+  type: Public
+coreVersion: 377
+clientVersion: 14.21
+updateCheckpoint: 107
+sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
+metaInfo:
+  hints:
+    []
+  tags:
+    []
+  lensName: Objektoj
+  lensDescriptors:
+    - GEN_AI_ICON
+  lensApplicableContext:
+    - live_camera
+    - reply_camera
+    - video_chat
+  lensApplicability:
+    - Front
+    - Back
+  lensClientCompatibilities:
+    - Mobile
+    - CameraKit
+  platformBundlesEnabled: false
+  iconHash: 034152251579ededa38371b265fa7afd
+  videoPreviewHash: ""
+  localizationsHash: ""
+  fromTemplateName: Default
+  fromTemplateUrl: Lens Studio 5.12.0.25072205
+  activationCamera: Rear
+  sourceMapEnabled: false
+  shaderCacheInvalidationEnabled: false
+  usingMinClientVersions: false
+  androidMinClientVersion:
+    major: 0
+    minor: 0
+    patch: 0
+    build: 0
+  iOSMinClientVersion:
+    major: 0
+    minor: 0
+    patch: 0
+    build: 0
+  documentId: d419b018-ec93-4f7f-adb0-0734f9a19e16
+  originalDocumentId: d535af76-857e-4ff7-8cf4-1d6da341a614
+  packageId: ""
+  packageVersion: ""
+  spkPrivilegeLevel: Generic
+  gluboEnabled: false
+targetPlatform: Snapchat
